@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState, useEffect, lazy, Suspense } from "react";
 import NavigationDrawer from "./components/NavigationDrawer";
 import { GiHamburgerMenu } from "react-icons/gi";
-import "./App.css";
 
 // Lazy load pages
 const Home = lazy(() => import("./pages/Home"));
