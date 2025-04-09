@@ -22,9 +22,21 @@ A modern React task management application with full CRUD functionality, respons
 
 🔗 [https://taskboardpro.netlify.app/](https://taskboardpro.netlify.app/)
 
-## Installation 💻
+## Setup Instructions
 
 1. Clone the repository:
-```bash
-git clone https://github.com/neeraj-bn/TaskBoard.git
-cd TaskBoard
+    ```bash
+    git clone https://github.com/neeraj-bn/TaskBoard.git
+    cd TaskBoard
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Run the app:
+    ```bash
+    npm run dev
+    ```
+
