@@ -55,7 +55,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1.875rem;
+  margin: 10px;
 }
 
 .drawer-title {
@@ -73,7 +73,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; 
+
+  transition: background-color 0.2s ease, transform 0.2s ease;
 }
+
+.close-drawer:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+  transform: scale(1.1);
+}
+
 
 .drawer-menu {
   list-style: none;
