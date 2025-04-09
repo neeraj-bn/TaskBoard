@@ -1,12 +1,30 @@
-<<<<<<< HEAD
-# React + Vite
+# TaskBoard 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React task management application with full CRUD functionality, responsive design, and localStorage persistence.
 
-Currently, two official plugins are available:
+## Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# TaskBoard
->>>>>>> 50f49238317a197ee58c43363f9077ff11924ac7
+- ✅ **Full CRUD Operations**: Create, Read, Update, Delete tasks
+- 📱 **Responsive Design**: Mobile-first approach with adaptive layout
+- 💾 **Data Persistence**: Tasks saved to localStorage
+- 🎨 **Lottie Animations**: Smooth, engaging animations
+- ⚡ **Performance Optimized**: Lazy-loaded components
+
+## Tech Stack 🛠️
+
+- **Frontend**: React 18, Vite
+- **Routing**: React Router 6
+- **Animations**: Lottie (@lottiefiles/dotlottie-react)
+- **Styling**: CSS Modules
+- **Icons**: React Icons
+
+## Live Demo 🌐
+
+🔗 [https://taskboardpro.netlify.app/](https://taskboardpro.netlify.app/)
+
+## Installation 💻
+
+1. Clone the repository:
+```bash
+git clone https://github.com/neeraj-bn/TaskBoard.git
+cd TaskBoard
